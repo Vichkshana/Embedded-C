@@ -2,8 +2,8 @@
 #define __BLINKY_H_
 /**
  * @file blinky.h
- * @author Bharath.G ()
- * @brief Project to Blink an LED connected to AVR328 MCU GPIO Pin
+ * @author Vichkshana ()
+ * @brief Project to turn on an LED when button sensor and heat sensor are turned on
  * @version 0.1
  * @date 2021-04-21
  * 
