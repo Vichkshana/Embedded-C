@@ -1,6 +1,6 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# LED Blinking 
+# LED ON when button sensor and heat sensor turn ON 
 
 ## In Action
 
