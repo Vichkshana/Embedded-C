@@ -26,14 +26,14 @@ int main(void)
     peripheral_init();
     InitADC();
     InitPwm();
-    USARTInit(103);
+    USARTInit(103);  // UBRR value 103
     uint16_t temp;
     while(1)
     {
         if((!(PIND&(1<<PD0)))&&((!(PIND&(1<<PD1)))))
         {
             change_led_state(LED_ON);
-            temp=ReadADC(0);
+            temp=ReadADC(0); // Reading through channel 0 of ADC
             _delay_ms(200);
             out_pwm(temp);
         }
