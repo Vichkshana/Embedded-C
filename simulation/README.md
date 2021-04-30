@@ -18,5 +18,5 @@
 #### Print the corresponding value of temperature for the signal in serial monitor using USART
 
 
-![act4](activity4.png)
+![act4](activity4.PNG)
 
